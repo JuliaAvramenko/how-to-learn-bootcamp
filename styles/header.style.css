@@ -1,0 +1,32 @@
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    /* выше установили ограничения для секции */
+    background-color: #f2f2f2;
+    position:relative;
+    z-index: -1;
+    
+}
+.header__main-illustration {
+    background-image: url("../images/header-image.png");
+    position: relative;
+    z-index: 0;
+}
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__square-pic {
+    height: 568px;
+    width: 568px;
+    background-color: #2f80ed;
+    position:relative;
+    z-index: 2;
+    
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+}
