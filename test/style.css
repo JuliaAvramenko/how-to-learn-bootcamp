@@ -1,0 +1,20 @@
+.parent {
+    display: block;
+}
+
+.child-first {
+    display: block;
+    min-height: 300px;
+}
+
+.child-two {
+    display: block;
+    min-height: 300px;
+    background-image: url("../images/header-image.png");
+    
+}
+
+div {
+    border: red solid 2px;
+    
+  }

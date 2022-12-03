@@ -9,18 +9,10 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
   
 }
-/* я настраиваю флекс-контейнеры */
-.myflexcontainer {
-  display: block;
 
-}
 div {
   border: red solid 2px;
   
-}
-
-.myflexelements{
-  margin: auto;
 }
 
 
