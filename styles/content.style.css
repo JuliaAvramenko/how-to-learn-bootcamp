@@ -223,7 +223,7 @@
     margin-bottom: 90px;
     flex-direction: row;
     border-spacing: 0;
-    display: flex;
+    
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -242,11 +242,7 @@
     font-size: 24px;
     font-weight: 600;
     color: white;
-    line-height: 1.15;
-    font-size: 24px;
-    font-weight: 600;
-
-
+    
 }
 
 .table__text_theme_dark {
