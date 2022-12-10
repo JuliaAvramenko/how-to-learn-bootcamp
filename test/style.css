@@ -93,7 +93,6 @@ dd {
     column-gap: 30px;
     flex-wrap: wrap;
     flex-direction: row;
-
     border-spacing: 0;
 }
 .cards__item {
@@ -231,9 +230,8 @@ height: 316px;
     width: 608px;
     height: 680px;
     margin-right: 48px;
-    
-
 }
+
 .khan__buy-link {
     line-height: 42px;
     font-size: 30px;

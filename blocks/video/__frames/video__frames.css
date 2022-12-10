@@ -1,0 +1,9 @@
+.video__frames {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -50px;
+    column-gap: 20px;
+}
