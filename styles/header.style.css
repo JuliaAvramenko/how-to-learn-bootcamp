@@ -9,12 +9,12 @@
     background-color: #f2f2f2;
 }
 
-.logo__place_header {
+.logo_place_header {
     position: absolute;
     top: 30px;
     left: 64px;
     width: 228px;
-    height: 42px;
+    height: 32px;
 
 
 }
@@ -64,4 +64,5 @@
 
 .header__link {
     color: #2f80ed;
+    text-decoration: none;
 }

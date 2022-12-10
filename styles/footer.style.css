@@ -1,7 +1,9 @@
 .footer {
     background-color: #1f1f1f;
     min-height: 350px;
-    padding: 60px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
 }
 
 .footer__columns {
@@ -13,29 +15,33 @@
     flex-basis: 711px;
 }
 
-.logo__place_footer {
-
-    width: 228px;
-    height: 42px;
-}
-
 .footer__column {
-    position: relative;
+    
     display: flex;
     width: 50%;
 
 }
 
+.footer__column_content_copyright{
+    display: block;
+}
+
+.logo_place_footer {
+
+    width: 228px;
+    height: 32px;
+}
+
 
 .footer__author {
-    position: absolute;
-    margin-top: 18px;
-    bottom: 18px;
-    left: 0;
+    
     color: white;
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
+
+    display: inline-block;
+    vertical-align: bottom;
 
 }
 
