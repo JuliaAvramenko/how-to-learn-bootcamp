@@ -3,4 +3,7 @@
     width: 608px;
     height: 680px;
     margin-right: 48px;
+
+    object-fit: cover;
+    object-position: top;
 }

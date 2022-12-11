@@ -7,11 +7,6 @@
   <title>Научиться учиться</title>
   <link rel="stylesheet" href="pages/index.css">
 
-  <link rel="stylesheet" href="styles/style.css">
-  <!--<link rel="stylesheet" href="styles/header.style.css">-->
-  <link rel="stylesheet" href="styles/content.style.css">
-  <link rel="stylesheet" href="styles/footer.style.css">
-
 </head>
 
 <body>
@@ -22,7 +17,7 @@
       <h1 class="header__title">Научиться учиться</h1>
 
       <div class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в
-        своей жизни? <a href="# " class="header__link">Узнать →</a> </div>
+        своей жизни? <a href="# " class="header__link header__link:hover">Узнать →</a> </div>
 
       <img src="images/header-image.png" alt="опять двойка" class="header__main-illustration">
       <div class="header__square-pic"></div>
@@ -39,7 +34,8 @@
               материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше
               сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит
               пользы.</p>
-            <p class="two-columns__paragraph two-columns__paragraph_gap"><span class="two-columns__span-accent">Вывод:</span>
+            <p class="two-columns__paragraph two-columns__paragraph_gap"><span
+                class="two-columns__span-accent">Вывод:</span>
               учиться тоже нужно уметь, но почему-то этому мало где учат. Что c этим делать?</p>
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению,
               сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
@@ -96,11 +92,9 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__frames">
-          <iframe src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          <iframe src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen class="video__frame"></iframe>
-          <iframe src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          <iframe src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen class="video__frame"></iframe>
         </div>
       </section>
@@ -185,7 +179,7 @@
           <h3 class="khan__quote-author">Джордж Лукас</h3>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="knan__book-container">
-            <div class="khan__book-pic"><img src="images_sprint-2/khan-book.jpg" alt="книга салмана хана"></div>
+            <img src="images_sprint-2/khan-book.jpg" alt="книга салмана хана" class="khan__book-pic">
             <div><a href="# " class="khan__buy-link">Купить книгу →</a></div>
           </div>
         </div>
@@ -265,9 +259,9 @@
           <p class="footer__author">&copy Виктор Абанькин</p>
 
         </div>
-        <div id="right main column" class="footer__column">
+        <div class="footer__column">
 
-          <div class="footer__column footer_column_direction">
+          <div class="footer__column footer__column_text_direction">
             <div class="footer_column_content_info">
               <h3 class="footer__column-heading">О Практикуме</h3>
               <ul class="footer__column-links">
@@ -277,7 +271,7 @@
               </ul>
             </div>
           </div>
-          <div class="footer__column footer_column_direction">
+          <div class="footer__column footer__column_text_direction">
             <div class="footer__column_content_social">
               <h3 class="footer__column-heading">Соцсети</h3>
               <ul class="footer__column-links">

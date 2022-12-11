@@ -1,0 +1,4 @@
+.footer__column_text_direction {
+    display: flex;
+    flex-direction: row-reverse;
+}
