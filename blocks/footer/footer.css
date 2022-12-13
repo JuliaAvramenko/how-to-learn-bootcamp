@@ -3,5 +3,8 @@
     padding-top: 60px;
     padding-bottom: 40px;
     box-sizing: border-box;
-    flex-basis: 711px;
+
+    
+    min-height: 350px;
+    display: flex;
 }

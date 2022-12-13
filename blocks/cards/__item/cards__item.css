@@ -1,4 +1,11 @@
 .cards__item {
+    padding-left: 0;
+    list-style-type: none;
+   
     width: 240px;
+
+    
+    
+
 
 }

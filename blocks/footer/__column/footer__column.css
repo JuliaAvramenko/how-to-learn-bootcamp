@@ -1,6 +1,6 @@
 .footer__column {
     
     display: flex;
-    width: 50%;
+    flex-grow: 1;
 
 }
